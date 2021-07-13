@@ -4,4 +4,12 @@
   <welcome-file-list>
     <welcome-file>bem-vindo.html</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>OlaMundoServlet</servlet-name>
+    <servlet-class>servlet.OlaMundoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OlaMundoServlet</servlet-name>
+    <url-pattern>/ola</url-pattern>
+  </servlet-mapping>
 </web-app>
